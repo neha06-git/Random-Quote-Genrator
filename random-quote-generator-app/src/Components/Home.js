@@ -38,8 +38,7 @@ const addBookmark = () => {
 
 }
 
-
-  useEffect(() => {
+useEffect(() => {
     var favourite = JSON.parse(localStorage.getItem('quote','author'));
     console.log(favourite);
     
