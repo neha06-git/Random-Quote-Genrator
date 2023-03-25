@@ -1,0 +1,135 @@
+/* body {
+  background-color: purple;
+ 
+
+}
+.navbar li {
+  list-style: none;
+ 
+  display: inline-block;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.container {
+  background: url(./assets/bg.jpg);
+  background-color: #ec5252;
+  background-size: cover;
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.container h2 {
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+   justify-content: center;
+  align-items: center;
+}
+.container small {
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin: 35px;
+display: block;
+border: 2px solid #fff;
+background-color: #20941c;
+padding: 10px 15px;
+color: #fff;
+font-size: 20px;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+transition: background 1s, color 1s;
+justify-content: center;
+align-items: center;
+}
+.btn:hover{
+background: #03501a;
+color: #fff;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+  background-color: purple;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: linear-gradient(#5E2AB2 100%,#161E6C 100%, to left);
+}
+
+.container {
+    background-color: #D05252;
+    background-size: cover;
+    /* width: 450px;
+    height: 200px; */
+    width: 875px;
+    height: 298px;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h2 {
+    font-size: 2em;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+}
+.container small {
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    
+}
+.btn {
+	display: block;
+	border: 2px solid #fff;
+  background-color:#009C51;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+	border-radius: 30px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background: #03501a;
+  color: #fff;
+	box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+span{
+    margin-top: 80px;
+    align-items: right;
+    justify-content: right;
+    margin-left: 75%;
+}
+
+.icon {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
