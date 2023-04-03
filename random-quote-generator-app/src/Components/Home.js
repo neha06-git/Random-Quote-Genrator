@@ -31,25 +31,18 @@ let fetchnewQuote = () => {
 }
 // Add data to localStorage
 
-const addBookmark = () => {
-  localStorage.setItem('quote',JSON.stringify(quote));
-  localStorage.setItem('author',JSON.stringify(author));
-//   console.log(addBookmark);
-
+const [isAddBookmark, setIsAddBookmark] = useState(false);
+const handleAddBookmark = () => {
+  // Add ypur favourite quote
+  setIsAddBookmark(true);
 }
-
-useEffect(() => {
-    var favourite = JSON.parse(localStorage.getItem('quote','author'));
-    console.log(favourite);
-    
-  }, []);
 
   return (
     <div className='home'>
       <div className="container">
             <h2>{quote}</h2>
             <small>-{author}</small>
-            <span ><BsFillBookmarkPlusFill className='icon' onClick={addBookmark}/></span>
+            <span ><BsFillBookmarkPlusFill className='icon' onClick={handleAddBookmark}/></span>
          </div><br />
          <button className="btn" onClick={fetchnewQuote}>Next Quote</button>
     </div>
